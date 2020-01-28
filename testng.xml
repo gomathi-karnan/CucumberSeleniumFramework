@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" thread-count="5" parallel="tests">
+
+  <test thread-count="1" name="chromeTest">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="restapi_selenium_using_bdd.restapi_selenium_using_bdd.Find_pet_by_ID"/>
+    </classes>
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->
